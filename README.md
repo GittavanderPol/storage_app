@@ -1,24 +1,16 @@
-# README
+# Readme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What I learned
 
-Things you may want to cover:
+* How to generate a new rails app.
+* Using postgresql with ActiveRecord.
+* Building a product resource (model, controller, routes, views)
+* Using basic tailwindcss
 
-* Ruby version
+## Setup
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Check out the git repository
+* Create the postgresql database: `bin/rails db:create`
+* Run the migrations: `bin/rails db:migrate`
+* Run the development server: `bin/dev`
+* Go to [http://localhost:3000](http://localhost:3000)

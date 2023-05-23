@@ -11,3 +11,11 @@
 }
 
 */
+
+h1 {
+  @apply text-lg font-bold;
+}
+
+a {
+  @apply underline text-sky-600;
+}

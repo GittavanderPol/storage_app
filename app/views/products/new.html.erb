@@ -1,0 +1,9 @@
+<h1>Add a new product below</h1>
+
+<%= render partial: "shared/validation_messages", locals: {model: @product} %>
+
+<%= form_with model: @product do |form| %>
+  <%= form.text_field :name %>
+  <%= form.number_field :quantity, min: 0 %>
+  <%= form.submit %>
+<% end %>

@@ -1,0 +1,9 @@
+<h1>These are all your products</h1>
+
+<% @products.each do |product| %>
+  <div class="border w-1/6">
+    <%= link_to product.name, product_path(product) %> | <%= product.quantity %>
+  </div>
+<% end %>
+
+<%= link_to "Add new product", new_product_path, class: "inline-block border px-4 py-2 hover:bg-slate-100 rounded-md" %>
